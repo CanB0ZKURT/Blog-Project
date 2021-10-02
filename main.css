@@ -1,0 +1,162 @@
+
+:root{
+    --left-menu-background-color: #e1e1e1;
+    --left-menu-header-color: rgb(49, 49, 49);
+    --left-menu-text-color: #828282;
+    --left-menu-icon-color: #828282;
+    --body-background-color: #C7C7C7;
+    --hr-color: #828282;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    list-style: none;
+}
+
+body{
+    background-color: var(--body-background-color);
+}
+
+/* Left Menu*/
+
+.left-menu{
+    width: 25%;
+    height: 970px;
+    background-color: var(--left-menu-background-color);
+}
+
+h1{
+    position: absolute;
+    left: 85px;
+    top: 100px;
+    font-size: 40px;
+}
+
+.hr{
+    position: relative;
+    left: 85px;
+    top: 175px;
+    width: 230px;
+    background-color: var(--body-background-color);
+    height: 5px;
+    border: none;
+}
+
+.hr-2{
+    position: relative;
+    left: 85px;
+    top: 325px;
+    width: 230px;
+    background-color: var(--body-background-color);
+    height: 5px;
+    border: none;
+}
+
+.hr-3{
+    position: relative;
+    left: 85px;
+    top: 400px;
+    width: 230px;
+    background-color: var(--body-background-color);
+    height: 5px;
+    border: none;
+}
+
+p{
+    display: inline-block;
+    position: relative;
+    left: 85px;
+    top: 250px;
+    font-size: 18px;
+    color: var(--left-menu-header-color);
+}
+
+span{
+    display: block;
+    position: relative;
+    left: 85px;
+    top: 370px;
+    font-size: 18px;
+    color: var(--left-menu-header-color);
+    margin-bottom: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.fa-facebook-square{
+    color: var(--left-menu-header-color);
+    font-size: 30px;
+    position: absolute;
+    left: 85px;
+    top: 630px;
+}
+
+.fa-facebook-square:hover{
+    color: #828282;
+    cursor: pointer;
+}
+
+span:hover{
+    color: #828282;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.fa-instagram-square{
+    color: var(--left-menu-header-color);
+    font-size: 30px;
+    position: absolute;
+    left: 150px;
+    top: 630px;
+}
+
+.fa-instagram-square:hover{
+    color: #828282;
+    cursor: pointer;
+}
+
+.fa-twitter-square{
+    color: var(--left-menu-header-color);
+    font-size: 30px;
+    position: absolute;
+    left: 220px;
+    top: 630px;
+}
+
+.fa-twitter-square:hover{
+    color: #828282;
+    cursor: pointer;
+}
+
+.fa-envelope-open-text{
+    color: var(--left-menu-header-color);
+    font-size: 30px;
+    position: absolute;
+    left: 290px;
+    top: 630px;
+}
+
+.fa-envelope-open-text:hover{
+    color: #828282;
+    cursor: pointer;
+}
+
+footer{
+    width: 25%;
+    height: 120px;
+    background-color: var(--left-menu-text-color);
+    position: fixed;
+    bottom: 0;
+}
+
+h2{
+    color: white;
+    font-size: 18px;
+    line-height: 120px;
+    position: relative;
+    left: 60px;
+}
